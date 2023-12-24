@@ -1,0 +1,218 @@
+.flex {
+  display: flex;
+}
+
+.size-box {
+  width: 50%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: Mont-Regular;
+  box-shadow: 8px 8px 16px #5a5a5a, -8px -8px 16px #ffffff;
+  transition: all 1s;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@font-face {
+  src: url(/fonts/Mont-Black.ttf);
+  font-family: mont-black;
+}
+@font-face {
+  src: url(/fonts/Mont-BlackItalic.ttf);
+  font-family: mont-BlackItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Bold.ttf);
+  font-family: mont-bold;
+}
+@font-face {
+  src: url(/fonts/Mont-BoldItalic.ttf);
+  font-family: Mont-BoldItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-ExtraLight.ttf);
+  font-family: Mont-ExtraLight;
+}
+@font-face {
+  src: url(/fonts/Mont-ExtraLightItalic.ttf);
+  font-family: Mont-ExtraLightItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Heavy.ttf);
+  font-family: Mont-Heavy;
+}
+@font-face {
+  src: url(/fonts/Mont-HeavyItalic.ttf);
+  font-family: Mont-HeavyItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Light.ttf);
+  font-family: Mont-Light;
+}
+@font-face {
+  src: url(/fonts/Mont-LightItalic.ttf);
+  font-family: Mont-LightItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Regular.ttf);
+  font-family: Mont-Regular;
+}
+@font-face {
+  src: url(/fonts/Mont-RegularItalic.ttf);
+  font-family: Mont-RegularItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Thin.ttf);
+  font-family: Mont-Thin;
+}
+@font-face {
+  src: url(/fonts/Mont-ThinItalic.ttf);
+  font-family: Mont-ThinItalic;
+}
+body.dark {
+  background-color: #000000;
+}
+
+body.magical {
+  background: linear-gradient(352deg, #67ff00, #ff0000, #3700ff, #ff0000, #ff00b3);
+  background-size: 1600% 1600%;
+  -webkit-animation: AnimationName 5s ease infinite;
+  -moz-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 6s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 74%;
+  }
+  50% {
+    background-position: 100% 27%;
+  }
+  100% {
+    background-position: 0% 74%;
+  }
+}
+body main header {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body main header .dark-mode {
+  position: relative;
+  right: 25px;
+}
+body main header .dark-mode ul {
+  background-color: #e7bcde;
+  border-radius: 10px;
+  padding: 0 20px;
+  list-style: none;
+}
+body main header .dark-mode ul span {
+  position: relative;
+}
+body main header .dark-mode ul span a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Mont-Light;
+}
+body main header .dark-mode ul span ul {
+  display: none;
+}
+body main header .dark-mode ul span ul li {
+  padding: 5px;
+}
+body main header .dark-mode ul span ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Mont-Regular !important;
+  transition: all 1px;
+}
+body main header .dark-mode ul span ul li a:hover {
+  color: #ffffff;
+  border-bottom: #000000 2px solid;
+}
+body main header .dark-mode ul span:hover ul {
+  display: block;
+}
+body main header .card {
+  display: flex;
+  width: 60%;
+  height: 65%;
+  background-color: #9eddec;
+  border-radius: 25px;
+}
+body main header .card .card__left-part-typing {
+  flex-direction: column;
+  align-items: start;
+  padding: 0 0 0 15px;
+  width: 50%;
+  font-family: Mont-Light;
+}
+body main header .card .card__left-part-typing .card__image {
+  padding: 5px 5px;
+  width: 30%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+}
+body main header .card .card__left-part-typing .card__image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+body main header .card .card__left-part-typing .github a {
+  text-decoration: none;
+  color: #000000;
+}
+body main header .card .card__right-part {
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+body main header .card .card__right-part .card__right-part__box-projects {
+  background-color: #6db9ef;
+}
+body main header .card .card__right-part .card__right-part__box-projects a {
+  color: #ffffff;
+}
+body main header .card .card__right-part .card__right-part__box-projects:hover {
+  background-color: #3081d0;
+  border-radius: 20px;
+}
+body main header .card .card__right-part .card__right-part__box-projects:hover a {
+  color: rgb(187, 187, 187);
+}
+body main header .card .card__right-part .card__right-part__box {
+  background-color: #65b741;
+}
+body main header .card .card__right-part .card__right-part__box a {
+  color: white;
+}
+body main header .card .card__right-part .card__right-part__box:hover {
+  background-color: #007504;
+  border-radius: 20px;
+}
+body main header .card .card__right-part .card__right-part__box:hover a {
+  color: rgb(187, 187, 187);
+}
+body main header .card .card__right-part .card__right-part__box-first {
+  background-color: rgb(102, 102, 102);
+}
+body main header .card .card__right-part .card__right-part__box-first a {
+  color: #ffffff;
+}
+body main header .card .card__right-part .card__right-part__box-first:hover {
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+}
+body main header .card .card__right-part .card__right-part__box-first:hover a {
+  color: rgb(187, 187, 187);
+}
+
+/*# sourceMappingURL=style.css.map */

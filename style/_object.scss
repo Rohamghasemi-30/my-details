@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+}
+
+.size-box {
+  width: 50%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: Mont-Regular;
+  box-shadow: 8px 8px 16px #5a5a5a, -8px -8px 16px #ffffff;
+  transition: all 1s;
+}
+
+.link {
+  text-decoration: none;
+}
