@@ -155,6 +155,7 @@ body main header .card {
 body main header .card .card__left-part-typing {
   flex-direction: column;
   align-items: start;
+  justify-content: space-around;
   padding: 0 0 0 15px;
   width: 50%;
   font-family: Mont-Light;
