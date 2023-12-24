@@ -114,7 +114,7 @@ body main header .dark-mode {
 body main header .dark-mode ul {
   background-color: #e7bcde;
   border-radius: 10px;
-  padding: 0 20px;
+  padding: 20px 20px 20px 20px;
   list-style: none;
 }
 body main header .dark-mode ul span {
@@ -154,11 +154,9 @@ body main header .card {
 }
 body main header .card .card__left-part-typing {
   flex-direction: column;
-  justify-content: space-between;
   align-items: start;
   padding: 0 0 0 15px;
   width: 50%;
-  height: 95%;
   font-family: Mont-Light;
 }
 body main header .card .card__left-part-typing .card__image {
